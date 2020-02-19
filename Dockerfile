@@ -1,5 +1,5 @@
 FROM golang:1.13
 
-COPY ./protoc /bin COPY ./protoc-gen-go /bin
+COPY ./bin /bin
 
 ENTRYPOINT ["/bin/sh"]
